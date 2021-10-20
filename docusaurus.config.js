@@ -14,7 +14,7 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'dry-edu', // Usually your GitHub org/user name.
-  projectName: 'dry-edu', // Usually your repo name.
+  projectName: 'dry-edu.github.io', // Usually your repo name.
 
   presets: [
     [
@@ -26,7 +26,7 @@ const config = {
           path: 'docs',
           routeBasePath: '/',
           // Please change this to your repo.
-          editUrl: 'https://github.com/dry-edu/dry-edu/edit/main/',
+          editUrl: 'https://github.com/dry-edu/dry-edu.github.io/edit/main/',
         },
         blog: false,
         theme: {
@@ -43,7 +43,7 @@ const config = {
         path: 'syllabus-template',
         routeBasePath: 'syllabus-template',
         sidebarPath: require.resolve('./sidebars.js'),
-        editUrl: 'https://github.com/dry-edu/dry-edu/edit/main/',
+        editUrl: 'https://github.com/dry-edu/dry-edu.github.io/edit/main/',
       },
     ],
   ],
@@ -65,7 +65,7 @@ const config = {
             activeBaseRegex: `/syllabus-template/`,
           },
           {
-            href: 'https://github.com/dry-edu/dry-edu',
+            href: 'https://github.com/dry-edu/dry-edu.github.io',
             label: 'GitHub',
             position: 'right',
           },
@@ -97,7 +97,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/dry-edu/dry-edu',
+                href: 'https://github.com/dry-edu/dry-edu.github.io',
               },
             ],
           },
