@@ -59,10 +59,28 @@ const config = {
         },
         items: [
           {
-            to: '/syllabus-template/',    // ./docs/Intro.md
-            label: 'Syllabus Template',
+            to: '/coding/', 
+            label: 'Coding',
             position: 'left',
-            activeBaseRegex: `/syllabus-template/`,
+            activeBaseRegex: `/coding/`,
+          },
+          {
+            to: '/cybersecurity/',    
+            label: 'Cybersecurity',
+            position: 'left',
+            activeBaseRegex: `/cybersecurity/`,
+          },
+          {
+            to: '/computer-graphics/',  
+            label: 'Computer Graphics',
+            position: 'left',
+            activeBaseRegex: `/computer-graphics/`,
+          },
+          {
+            to: '/game-design/',  
+            label: 'Game Design',
+            position: 'left',
+            activeBaseRegex: `/game-design/`,
           },
           {
             href: 'https://github.com/cahs-cs/cahs-cs.github.io',
@@ -78,8 +96,20 @@ const config = {
             title: 'Courses',
             items: [
               {
-                label: 'Syllabus Template',
-                to: '/syllabus-template/',
+                label: 'Coding',
+                to: '/coding/',
+              },
+              {
+                label: 'Cybersecurity',
+                to: '/cybersecurity/',
+              },
+              {
+                label: 'Computer Graphics',
+                to: '/computer-graphics/',
+              },
+              {
+                label: 'Game Design',
+                to: '/game-design/',
               },
             ],
           },
