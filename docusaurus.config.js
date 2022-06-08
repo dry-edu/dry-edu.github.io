@@ -45,6 +45,8 @@ const config = {
         sidebarPath: require.resolve('./sidebars.js'),
         editUrl: 'https://github.com/cahs-cs/cahs-cs.github.io/edit/main/',
       },
+    ],
+    [
       '@docusaurus/plugin-content-docs',
       {
         id: 'coding',
@@ -53,6 +55,8 @@ const config = {
         sidebarPath: require.resolve('./sidebars.js'),
         editUrl: 'https://github.com/cahs-cs/cahs-cs.github.io/edit/main/',
       },
+    ],
+    [
       '@docusaurus/plugin-content-docs',
       {
         id: 'computer-graphics',
@@ -61,6 +65,8 @@ const config = {
         sidebarPath: require.resolve('./sidebars.js'),
         editUrl: 'https://github.com/cahs-cs/cahs-cs.github.io/edit/main/',
       },
+    ],
+    [
       '@docusaurus/plugin-content-docs',
       {
         id: 'cybersecurity',
@@ -69,6 +75,8 @@ const config = {
         sidebarPath: require.resolve('./sidebars.js'),
         editUrl: 'https://github.com/cahs-cs/cahs-cs.github.io/edit/main/',
       },
+    ],
+    [
       '@docusaurus/plugin-content-docs',
       {
         id: 'game-design',
@@ -77,7 +85,7 @@ const config = {
         sidebarPath: require.resolve('./sidebars.js'),
         editUrl: 'https://github.com/cahs-cs/cahs-cs.github.io/edit/main/',
       },
-    ],
+    ]
   ],
 
   themeConfig:
