@@ -6,3 +6,5 @@ slug: /philosophy
 ---
 
 # Philosophy
+
+🚧 Under Construction 🚧
