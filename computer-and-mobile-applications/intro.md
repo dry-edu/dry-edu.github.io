@@ -5,7 +5,7 @@ sidebar_label: Computer and Mobile Applications
 slug: /
 ---
 
-# Coding
+# Computer and Mobile Applications
 
 ## Course Description
 

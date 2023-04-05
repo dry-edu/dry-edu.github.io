@@ -5,7 +5,7 @@ sidebar_label: Information Technology
 slug: /
 ---
 
-# Cybersecurity
+# Information Technology
 
 ## Course Description
 
