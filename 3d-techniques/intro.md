@@ -1,11 +1,11 @@
 ---
 id: intro
 sidebar_position: 1
-sidebar_label: Game Design
+sidebar_label: 3D Techniques
 slug: /
 ---
 
-# Game Design
+# Computer Graphics
 
 ## Course Description
 

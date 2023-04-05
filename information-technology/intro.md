@@ -1,11 +1,11 @@
 ---
 id: intro
 sidebar_position: 1
-sidebar_label: Computer Graphics
+sidebar_label: Information Technology
 slug: /
 ---
 
-# Computer Graphics
+# Cybersecurity
 
 ## Course Description
 

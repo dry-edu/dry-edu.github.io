@@ -1,11 +1,11 @@
 ---
 id: intro
 sidebar_position: 1
-sidebar_label: Cybersecurity
+sidebar_label: Computer and Mobile Applications
 slug: /
 ---
 
-# Cybersecurity
+# Coding
 
 ## Course Description
 

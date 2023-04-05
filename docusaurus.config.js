@@ -49,9 +49,9 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'coding',
-        path: 'coding',
-        routeBasePath: 'coding',
+        id: 'computer-and-mobile-applications',
+        path: 'computer-and-mobile-applicationsing',
+        routeBasePath: 'computer-and-mobile-applications',
         sidebarPath: require.resolve('./sidebars.js'),
         editUrl: 'https://github.com/cahs-cs/cahs-cs.github.io/edit/main/',
       },
@@ -59,9 +59,9 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'computer-graphics',
-        path: 'computer-graphics',
-        routeBasePath: 'computer-graphics',
+        id: '3d-techniques',
+        path: '3d-techniques',
+        routeBasePath: '3d-techniques',
         sidebarPath: require.resolve('./sidebars.js'),
         editUrl: 'https://github.com/cahs-cs/cahs-cs.github.io/edit/main/',
       },
@@ -69,23 +69,13 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'cybersecurity',
-        path: 'cybersecurity',
-        routeBasePath: 'cybersecurity',
+        id: 'information-technology',
+        path: 'information-technology',
+        routeBasePath: 'information-technology',
         sidebarPath: require.resolve('./sidebars.js'),
         editUrl: 'https://github.com/cahs-cs/cahs-cs.github.io/edit/main/',
       },
     ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'game-design',
-        path: 'game-design',
-        routeBasePath: 'game-design',
-        sidebarPath: require.resolve('./sidebars.js'),
-        editUrl: 'https://github.com/cahs-cs/cahs-cs.github.io/edit/main/',
-      },
-    ]
   ],
 
   themeConfig:
@@ -99,28 +89,22 @@ const config = {
         },
         items: [
           {
-            to: '/coding/', 
-            label: 'Coding',
+            to: '/computer-and-mobile-applications/', 
+            label: 'Computer and Mobile Applications',
             position: 'left',
-            activeBaseRegex: `/coding/`,
+            activeBaseRegex: `/computer-and-mobile-applications/`,
           },
           {
-            to: '/cybersecurity/',    
-            label: 'Cybersecurity',
+            to: '/3d-techniques/',    
+            label: '3D Techniques',
             position: 'left',
-            activeBaseRegex: `/cybersecurity/`,
+            activeBaseRegex: `/3d-techniques/`,
           },
           {
-            to: '/computer-graphics/',  
-            label: 'Computer Graphics',
+            to: '/information-technology/',  
+            label: 'Information Technology',
             position: 'left',
-            activeBaseRegex: `/computer-graphics/`,
-          },
-          {
-            to: '/game-design/',  
-            label: 'Game Design',
-            position: 'left',
-            activeBaseRegex: `/game-design/`,
+            activeBaseRegex: `/information-technology/`,
           },
           {
             href: 'https://github.com/cahs-cs/cahs-cs.github.io',
@@ -136,20 +120,16 @@ const config = {
             title: 'Courses',
             items: [
               {
-                label: 'Coding',
-                to: '/coding/',
+                label: 'Computer and Mobile Applications',
+                to: '/computer-and-mobile-applications/',
               },
               {
-                label: 'Cybersecurity',
-                to: '/cybersecurity/',
+                label: '3D Techniques',
+                to: '/3d-techniques/',
               },
               {
-                label: 'Computer Graphics',
-                to: '/computer-graphics/',
-              },
-              {
-                label: 'Game Design',
-                to: '/game-design/',
+                label: 'Information Technology',
+                to: '/information-technology/',
               },
             ],
           },
