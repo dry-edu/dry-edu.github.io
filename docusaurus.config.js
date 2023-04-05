@@ -50,7 +50,7 @@ const config = {
       '@docusaurus/plugin-content-docs',
       {
         id: 'computer-and-mobile-applications',
-        path: 'computer-and-mobile-applicationsing',
+        path: 'computer-and-mobile-applications',
         routeBasePath: 'computer-and-mobile-applications',
         sidebarPath: require.resolve('./sidebars.js'),
         editUrl: 'https://github.com/cahs-cs/cahs-cs.github.io/edit/main/',
