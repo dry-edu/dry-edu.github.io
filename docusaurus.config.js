@@ -59,9 +59,9 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: '3d-techniques',
-        path: '3d-techniques',
-        routeBasePath: '3d-techniques',
+        id: 'three-techniques',
+        path: 'three-techniques',
+        routeBasePath: 'three-techniques',
         sidebarPath: require.resolve('./sidebars.js'),
         editUrl: 'https://github.com/cahs-cs/cahs-cs.github.io/edit/main/',
       },
@@ -95,10 +95,10 @@ const config = {
             activeBaseRegex: `/computer-and-mobile-applications/`,
           },
           {
-            to: '/3d-techniques/',    
+            to: '/three-techniques/',    
             label: '3D Techniques',
             position: 'left',
-            activeBaseRegex: `/3d-techniques/`,
+            activeBaseRegex: `/three-techniques/`,
           },
           {
             to: '/information-technology/',  
@@ -125,7 +125,7 @@ const config = {
               },
               {
                 label: '3D Techniques',
-                to: '/3d-techniques/',
+                to: '/three-techniques/',
               },
               {
                 label: 'Information Technology',
